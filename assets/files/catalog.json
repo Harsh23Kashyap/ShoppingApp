@@ -9,30 +9,7 @@
         "image":
             "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1631220221000"
         },
-    {
-        "id": 2, 
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Motorola_XOOM.png", 
-        "name": "Motorola XOOm\u2122 ", 
-        "desc": "Experience the future with Motorola XOOM with Wi-Fi.",
-        "price":10000,
-        "color":"#33505a"
-    }, 
-    { 
-        "id": 3, 
-        "image": "https://cdn.hum3d.com/wp-content/uploads/2012/03/Motorola_Atrix_2_600_lq_0001.jpg", 
-        "name": "Motorola Atrix\u2122 4G", 
-        "price":20000,
-        "color":"#00779F",
-        "desc": "MOTOROLA ATRIX 4G the world's most powerful smartphone."
-    }, 
-    {
-        "id": 4, 
-        "image": "https://m.media-amazon.com/images/I/81oBMtOFxFL._SX425_.jpg", 
-        "name": "Dell Streak 7", 
-        "price":56000,
-        "color":"#80829F",
-        "desc": "Introducing Dell\u2122 Streak 7. Share photos, videos and movies together."
-    }, 
+    
     {
         "id": 5, 
         "image": "https://images.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/S22_Ultra_ProductKV_Burgundy_MO.jpg", 
@@ -57,6 +34,22 @@
         "color":"#000022",
         "desc": "Fast just got faster with Pixel S."
     }, 
+    { 
+        "id": 3, 
+        "image": "https://cdn.hum3d.com/wp-content/uploads/2012/03/Motorola_Atrix_2_600_lq_0001.jpg", 
+        "name": "Motorola Atrix\u2122 4G", 
+        "price":20000,
+        "color":"#00779F",
+        "desc": "MOTOROLA ATRIX 4G the world's most powerful smartphone."
+    }, 
+    {
+        "id": 2, 
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Motorola_XOOM.png", 
+        "name": "Motorola XOOM\u2122 ", 
+        "desc": "Experience the future with Motorola XOOM with Wi-Fi.",
+        "price":10000,
+        "color":"#33505a"
+    }, 
     {
         "id": 8, 
         "image": "https://fdn2.gsmarena.com/vv/bigpic/lg-axis.jpg", 
@@ -80,6 +73,16 @@
         "price":129000,
         "color":"#C6C5C5",
         "desc": "The Samsung Showcase\u2122 delivers a quality experience ."
+    }, 
+
+    
+    {
+        "id": 4, 
+        "image": "https://m.media-amazon.com/images/I/81oBMtOFxFL._SX425_.jpg", 
+        "name": "Dell Streak 7", 
+        "price":56000,
+        "color":"#80829F",
+        "desc": "Introducing Dell\u2122 Streak 7. Share photos, videos and movies together."
     }, 
     {
         "id": 11, 

@@ -11,6 +11,12 @@ class CatalogModel {
         image:
             "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1631220221000"),
   ];
+
+  //Get item by id
+  static Item getById(int id) =>
+      items.firstWhere((element) => element.id == id, orElse: null);
+
+  static Item getByPosition(int pos) => items[pos];
 }
 
 class Item {
