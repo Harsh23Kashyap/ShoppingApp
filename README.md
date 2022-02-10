@@ -5,11 +5,17 @@
 ## Links
 ## Screenshots
 
-![Home Page](/Screenshots/1.png "Home Page")
+![Login Page](/Screenshots/1.png "Login Page")
 
-![](/screenshots/2.png)
+![Login Page 2](/Screenshots/2.png "Login Page")
 
-![](/screenshots/3.png)
+![Home Page](/Screenshots/3.png "Home Page")
+
+![Home Page](/Screenshots/4.png "Home Page Dark")
+![Detailed Home Page](/Screenshots/7.png "Detailed Home Page")
+
+![Cart Page](/Screenshots/8.png "Cart Page")
+![Buy Option](/Screenshots/10.png "Buy Option")
 
 
 ## Built With
