@@ -1,0 +1,117 @@
+{
+    "products":[
+    {
+        "id": 1,
+        "name": "iPhone 13 Pro",
+        "desc": "Apple iPhone 13th generation",
+        "price": 99999,
+        "color": "#33505a",
+        "image":
+            "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1631220221000"
+        },
+    {
+        "id": 2, 
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Motorola_XOOM.png", 
+        "name": "Motorola XOOm\u2122 ", 
+        "desc": "Experience the future with Motorola XOOM with Wi-Fi.",
+        "price":10000,
+        "color":"#33505a"
+    }, 
+    { 
+        "id": 3, 
+        "image": "https://cdn.hum3d.com/wp-content/uploads/2012/03/Motorola_Atrix_2_600_lq_0001.jpg", 
+        "name": "Motorola Atrix\u2122 4G", 
+        "price":20000,
+        "color":"#00779F",
+        "desc": "MOTOROLA ATRIX 4G the world's most powerful smartphone."
+    }, 
+    {
+        "id": 4, 
+        "image": "https://m.media-amazon.com/images/I/81oBMtOFxFL._SX425_.jpg", 
+        "name": "Dell Streak 7", 
+        "price":56000,
+        "color":"#80829F",
+        "desc": "Introducing Dell\u2122 Streak 7. Share photos, videos and movies together."
+    }, 
+    {
+        "id": 5, 
+        "image": "https://images.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/S22_Ultra_ProductKV_Burgundy_MO.jpg", 
+        "name": "Samsung Galaxy S22\u2122", 
+        "price":99000,
+        "color":"#0077FF",
+        "desc": "The Samsung Galaxy\u2122 brings you everything that you would expect and more."
+    }, 
+    {
+        "id": 6, 
+        "image": "https://m.media-amazon.com/images/I/71D8xt91+VL._SX679_.jpg", 
+        "name": "One Plus Nord 2", 
+        "price":32000,
+        "color":"#FF579F",
+        "desc": "The One Plus Nord 2; Your Personal Express Lane to Everything"
+    }, 
+    {
+        "id": 7, 
+        "image": "https://m.media-amazon.com/images/I/71EyTcGszpL._SX679_.jpg", 
+        "name": "Pixel 6", 
+        "price":69000,
+        "color":"#000022",
+        "desc": "Fast just got faster with Pixel S."
+    }, 
+    {
+        "id": 8, 
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lg-axis.jpg", 
+        "name": "LG Axis", 
+        "price":79000,
+        "color":"#952E22",
+        "desc": "Android Powered, Google Maps Navigation, 5 Customizable Home Screens"
+    }, 
+    {
+        "id": 9,  
+        "image": "https://m.media-amazon.com/images/I/61ndwk9f8DL._AC_SL1500_.jpg", 
+        "name": "Samsung Galaxy Tab\u2122", 
+        "price":109000,
+        "color":"#FCFDEB",
+        "desc": "Feel Free to Tab\u2122. The Samsung Galaxy Tab\u2122 brings you an ultra-mobile entertainment experience ."
+    }, 
+    {
+        "id": 10,  
+        "image": "https://5.imimg.com/data5/PD/RY/GLADMIN-53363912/food-showcase-refrigerator-500x500.png", 
+        "name": "Samsung Showcase\u2122 a Galaxy S\u2122 phone", 
+        "price":129000,
+        "color":"#C6C5C5",
+        "desc": "The Samsung Showcase\u2122 delivers a quality experience ."
+    }, 
+    {
+        "id": 11, 
+        "image": "https://cdn.vox-cdn.com/thumbor/OCa24cyu8XIbX4VgrQCOHKohe3k=/0x0:647x486/1400x1400/filters:focal(262x116:364x218):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/55044967/droid.0.jpg", 
+        "name": "DROID\u2122 2 Global by Motorola", 
+        "price":32000,
+        "color":"#0059FF",
+        "desc": "The first smartphone with a 1.2 GHz processor and global capabilities."
+    }, 
+    {
+        "id": 12,  
+        "image": "https://www.gizbot.com/imgh/300x220/2019/09//samsung-galaxy-m30s_156802290500.jpg", 
+        "name": "Samsung Galaxy M30s", 
+        "price":18000,
+        "color":"#9D0EFF",
+        "desc": "The next generation of Android."
+    }, 
+    {
+        "id": 13, 
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdvgEJVMyok8E3zBlRhpHudV83gJfPYcDwuw&usqp=CAU", 
+        "name": "Apple Airpods \u2122 with MOTOBLUR\u2122", 
+        "price":19999,
+        "color":"#4C5DFF",
+        "desc": "An experience to cheer about."
+    }, 
+    {
+        "id": 14, 
+        "image": "https://m.media-amazon.com/images/I/61WSgUiJUfS._AC_SX466_.jpg", 
+        "name": "Motorola DEFY\u2122 with MOTOBLUR\u2122", 
+        "price":49000,
+        "color":"#950022",
+        "desc": "Are you ready for everything life throws your way?"
+    }
+]
+}
