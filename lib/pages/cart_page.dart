@@ -1,3 +1,5 @@
+import 'package:basic_app/models/catalog.dart';
+import 'package:basic_app/widgets/item_widgets.dart';
 import 'package:basic_app/widgets/themes.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/src/extensions/context_ext.dart';
@@ -6,6 +8,23 @@ import 'package:velocity_x/src/extensions/string_ext.dart';
 import 'package:velocity_x/src/flutter/padding.dart';
 import 'package:velocity_x/src/flutter/sizedbox.dart';
 import 'package:velocity_x/src/flutter/widgets.dart';
+
+import 'home_widgets/catalog_list.dart';
+import 'homedetail_page.dart';
+
+import 'package:animated_text_kit/animated_text_kit.dart';
+
+const colorizeColors = [
+  Colors.blueAccent,
+  Colors.black,
+  Colors.lightBlueAccent,
+  Colors.white,
+];
+
+const colorizeTextStyle = TextStyle(
+  fontSize: 30.0,
+  fontFamily: 'Horizon',
+);
 
 class CartPage extends StatelessWidget {
   @override
@@ -18,6 +37,21 @@ class CartPage extends StatelessWidget {
         body: Column(
           children: [
             _CartList().p(32).expand(),
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: Center(
+                child: AnimatedTextKit(
+                  repeatForever: true,
+                  animatedTexts: [
+                    ColorizeAnimatedText(
+                      'Thank You for Shopping!!!',
+                      textStyle: colorizeTextStyle,
+                      colors: colorizeColors,
+                    ),
+                  ],
+                ),
+              ),
+            ),
             Divider(),
             _CartTotal(),
           ],
@@ -33,7 +67,7 @@ class _CartTotal extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          "₹ 999".text.xl5.color(context.theme.accentColor).make(),
+          "₹ 99000".text.xl4.color(context.theme.accentColor).make(),
           30.widthBox,
           ElevatedButton(
                   onPressed: () {
@@ -60,16 +94,16 @@ class _CartList extends StatefulWidget {
 }
 
 class __CartListState extends State<_CartList> {
+  final dummylist = List.generate(1, (index) => CatalogModel.items[0]);
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: 5,
-      itemBuilder: (context, index) => ListTile(
-        leading: Icon(Icons.done),
-        trailing: IconButton(
-            icon: Icon(Icons.remove_circle_outline), onPressed: () {}),
-        title: "Item 1 ".text.make(),
-      ),
+      shrinkWrap: true,
+      itemCount: dummylist.length,
+      itemBuilder: (context, index) {
+        return ItemWidget(item: dummylist[index]);
+        ;
+      },
     );
   }
 }
