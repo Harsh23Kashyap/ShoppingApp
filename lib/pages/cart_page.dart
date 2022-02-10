@@ -67,7 +67,7 @@ class _CartTotal extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          "₹ 99000".text.xl4.color(context.theme.accentColor).make(),
+          "₹ 99999".text.xl4.color(context.theme.accentColor).make(),
           30.widthBox,
           ElevatedButton(
                   onPressed: () {
